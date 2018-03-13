@@ -33,3 +33,7 @@ ribbon: # <---NEW SECTION
 #spring:
 #  rabbitmq:
 #    addresses: ${vcap.services.cloud-bus.credentials.http_api_uris:http://localhost:5672}
+#
+management:
+  cloudfoundry:
+    skip-ssl-validation: true
